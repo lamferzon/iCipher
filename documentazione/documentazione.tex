@@ -78,7 +78,7 @@ marginparwidth=1.5cm, marginparsep=0.4cm, margin=1.5cm]{geometry}
 
 	\section{Cifrario di Leoni}
 	
-	L'algoritmo si basa sull'utilizzo combinato e iterato dei cifrari di Cesare modificato\footnote{per una descrizione accurata dell'algoritmo si rimanda alla documentazione di PasswordCollector, sezione \num{5}: \url{https://github.com/lamferzon/Password-collector-in-Java/blob/main/documentazione.pdf}} e di Vigenère. Gli algoritmi \ref{alg1} e \ref{alg2} descrivono rispettivamente la cifratura e decifrazione. Si ricorda che la versione modificata dell'algoritmo di Cesare aggiunge un carattere in coda alla parola criptata in modo tale che ci sia la possibilità di risalire al $lag$ (scelto casualmente) utilizzato, quindi \textit{n} iterazioni comportano l'aggiunta di \textit{n} caratteri alla parola originale.
+	L'algoritmo si basa sull'utilizzo combinato e iterato dei cifrari di Cesare modificato\footnote{per una descrizione accurata dell'algoritmo si rimanda alla documentazione di PasswordCollector, sezione \num{5}: \url{https://github.com/lamferzon/PasswordCollector/blob/main/documentazione/documentazione.pdf}} e di Vigenère. Gli algoritmi \ref{alg1} e \ref{alg2} descrivono rispettivamente la cifratura e decifrazione. Si ricorda che la versione modificata dell'algoritmo di Cesare aggiunge un carattere in coda alla parola criptata in modo tale che ci sia la possibilità di risalire al $lag$ (scelto casualmente) utilizzato, quindi \textit{n} iterazioni comportano l'aggiunta di \textit{n} caratteri alla parola originale.
 	\begin{algorithm}
 		\caption{algoritmo di cifratura del cifrario di Leoni}\label{alg1}
 		$nIter \gets$ \textit{ numero di iterazioni};\\
