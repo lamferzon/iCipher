@@ -1,5 +1,12 @@
 # iCipher, a C++ application for encrypting sentences with some re-imaginings of popular algorithms
 
+![GitHub repo size](https://img.shields.io/github/repo-size/lamferzon/iCipher?logo=c%2B%2B)
+![Lines of code](https://img.shields.io/tokei/lines/github/lamferzon/iCipher?color=yellow)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/lamferzon/iCipher?color=gree)
+![GitHub](https://img.shields.io/github/license/lamferzon/iCipher?color=red)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/lamferzon/iCipher?color=lightblue)
+
+
 ## Author ##
 + **Lorenzo LEONI**, postgraduate in Computer Engineering at University of Bergamo.
 
