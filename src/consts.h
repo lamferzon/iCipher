@@ -6,7 +6,7 @@
 using namespace std;
 
 struct ASCIIConst{
-	const static int START = 32;
+	const static int START = 33;
 	const static int END = 127;
 };
 
