@@ -13,4 +13,13 @@ Through a command line interface, users can access two services thanks to *iCiph
 
 *iCipher* works completely offline, therefore there is no risk of spreading your sensitive data on the Internet.
 
+## UML Class Diagrams ##
+- [x] UML Class Diagram of the header file *encryptors.h*.
+
+![Image 1](documentazione/UML/UML_1.jpg)
+
+- [x] UML Class Diagram of the header files *application.h* and *consts.h*.
+
+![Image 1](documentazione/UML/UML_2.jpg)
+
 
