@@ -6,12 +6,12 @@
 #include "application.h"
 using namespace std;
 
-void smartFunction(){
-	unique_ptr<Application> appPtr (new Application());
-	appPtr->startApplication();
-	appPtr.release();
+void smartFunction(unique_ptr<Application>& app){
+	app->startApplication();
+	app.release();
 }
 
 int main(){
-	smartFunction();
+	unique_ptr<Application> appPtr (new Application());
+	smartFunction(appPtr);
 }
